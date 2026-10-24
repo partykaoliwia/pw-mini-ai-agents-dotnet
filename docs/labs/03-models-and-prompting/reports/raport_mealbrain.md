@@ -23,7 +23,8 @@ Jak oceniamy poprawność odpowiedzi modelu? Jakie metryki przyjmujemy i dlaczeg
 
 | Model | Floor accuracy | Elevator accuracy | Exact match | Średni czas [ms] |
 |-------|----------------|-------------------|-------------|------------------|
-| | | | | |
+|gemma3:4b | 90%| 80%| 70%| 2309|
+|qwen3:4b | 100%| 100%| 100%| 111451|
 
 
 **Exact match** oznacza odsetek notatek, dla których model poprawnie rozpoznał jednocześnie oba pola: `floor` i `elevator`.
