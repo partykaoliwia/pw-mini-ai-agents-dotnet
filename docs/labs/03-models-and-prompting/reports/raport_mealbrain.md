@@ -17,7 +17,9 @@ Jak oceniamy poprawność odpowiedzi modelu? Jakie metryki przyjmujemy i dlaczeg
 
 | Metryka | Definicja |
 |---------|-----------|
-| | |
+| **Floor accuracy** | Trafność rozpoznania numeru piętra. |
+| **Elevator accuracy** | Trafność rozpoznania obecności windy. |
+| **Exact match** | Odsetek notatek z poprawnym piętrem i windą jednocześnie. |
 
 ## EXP-01 — Porównanie modeli
 
