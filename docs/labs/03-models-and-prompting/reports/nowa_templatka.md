@@ -7,12 +7,12 @@
 
 | Parametr | K1 | K2 | K3 |
 |----------|----|----|----|
-| Osoba | | | |
-| CPU | | | |
-| GPU | | | |
-| RAM | | | |
-| Model A | | | |
-| Model B | | | |
+| Osoba | Patrycja Borkowska| | |
+| CPU | Intel Core Ultra 9 275HX, 2,70 GHz| | |
+| GPU | NVIDIA GeForce RTX 5070 Ti Laptop GPU — 12 GB VRAM| | |
+| RAM | 64 GB| | |
+| Model A | gemma3:4b| | |
+| Model B | qwen3:4b| | |
 
 Model A i model B oznaczają dwa modele badane na danym komputerze, zgodnie z tabelą powyżej.
 
@@ -38,8 +38,8 @@ Jak oceniamy poprawność odpowiedzi modelu? Jakie metryki przyjmujemy i dlaczeg
 
 | Model | Floor accuracy | Elevator accuracy | Exact match | Średni czas [ms] |
 |-------|----------------|-------------------|-------------|------------------|
-| model A | | | | |
-| model B | | | | |
+| model A |90% | 80%| 70%| 2309|
+| model B | 100% | 100% |100% | 111451|
 
 ### Komputer K2
 
@@ -65,9 +65,9 @@ Jak oceniamy poprawność odpowiedzi modelu? Jakie metryki przyjmujemy i dlaczeg
 
 | Wariant | Floor accuracy | Elevator accuracy | Exact match |
 |---------|----------------|-------------------|-------------|
-| zero-shot | | | |
-| one-shot | | | |
-| few-shot | | | |
+| zero-shot | 100%| 100%| 100%|
+| one-shot | 100%| 100%| 100%|
+| few-shot | 100%| 100%| 100%|
 
 ### Komputer K2
 
@@ -93,9 +93,9 @@ Jak oceniamy poprawność odpowiedzi modelu? Jakie metryki przyjmujemy i dlaczeg
 
 | Temperature | Exact match | Powtarzalne notatki |
 |-------------|-------------|---------------------|
-| 0.0 | | |
-| 0.5 | | |
-| 1.0 | | |
+| 0.0 | 100%| 10/10 |
+| 0.5 |  100%| 10/10 |
+| 1.0 |   100%| 10/10 |
 ### Komputer K2
 
 | Temperature | Exact match | Powtarzalne notatki |
@@ -122,8 +122,8 @@ Powtarzalne notatki to notatki z takim samym wynikiem we wszystkich pięciu powt
 
 | Wariant | Poprawny JSON | Exact match |
 |---------|---------------|-------------|
-| prompt | | |
-| json-schema | | |
+| prompt | 10/10| 100%|
+| json-schema | 10/10| 100%|
 
 ### Komputer K2
 
