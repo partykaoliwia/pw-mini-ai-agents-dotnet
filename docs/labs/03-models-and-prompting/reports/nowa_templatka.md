@@ -20,7 +20,6 @@ Wszystkie komputery korzystają z tego samego zbioru testowego, promptów i usta
 
 | Zbiór danych | Liczba notatek |
 |-------------|----------------|
-| Dostępne notatki rzeczywiste (notes.csv) | 172 |
 | Zbiór testowy używany w eksperymentach (examples.csv) | 10 |
 
 ## EXP-00 — Sposób oceny wyników
