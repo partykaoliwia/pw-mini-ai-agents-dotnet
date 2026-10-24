@@ -8,12 +8,11 @@
 | Parametr | K1 | K2 | K3 |
 |----------|----|----|----|
 | Osoba | | | |
-| Wersja Ollama | | | |
 | CPU | | | |
 | GPU | | | |
 | RAM | | | |
-| Model A (pełna nazwa i wariant) | | | |
-| Model B (pełna nazwa i wariant) | | | |
+| Model A | | | |
+| Model B | | | |
 
 Model A i model B oznaczają dwa modele badane na danym komputerze, zgodnie z tabelą powyżej.
 
@@ -63,36 +62,27 @@ Jak oceniamy poprawność odpowiedzi modelu? Jakie metryki przyjmujemy i dlaczeg
 
 ### Komputer K1
 
-| Model | Wariant | Floor accuracy | Elevator accuracy | Exact match |
-|-------|---------|----------------|-------------------|-------------|
-| model A | zero-shot | | | |
-| model A | one-shot | | | |
-| model A | few-shot | | | |
-| model B | zero-shot | | | |
-| model B | one-shot | | | |
-| model B | few-shot | | | |
+| Wariant | Floor accuracy | Elevator accuracy | Exact match |
+|---------|----------------|-------------------|-------------|
+| zero-shot | | | |
+| one-shot | | | |
+| few-shot | | | |
 
 ### Komputer K2
 
-| Model | Wariant | Floor accuracy | Elevator accuracy | Exact match |
-|-------|---------|----------------|-------------------|-------------|
-| model A | zero-shot | | | |
-| model A | one-shot | | | |
-| model A | few-shot | | | |
-| model B | zero-shot | | | |
-| model B | one-shot | | | |
-| model B | few-shot | | | |
+| Wariant | Floor accuracy | Elevator accuracy | Exact match |
+|---------|----------------|-------------------|-------------|
+| zero-shot | | | |
+| one-shot | | | |
+| few-shot | | | |
 
 ### Komputer K3
 
-| Model | Wariant | Floor accuracy | Elevator accuracy | Exact match |
-|-------|---------|----------------|-------------------|-------------|
-| model A | zero-shot | | | |
-| model A | one-shot | | | |
-| model A | few-shot | | | |
-| model B | zero-shot | | | |
-| model B | one-shot | | | |
-| model B | few-shot | | | |
+| Wariant | Floor accuracy | Elevator accuracy | Exact match |
+|---------|----------------|-------------------|-------------|
+| zero-shot | | | |
+| one-shot | | | |
+| few-shot | | | |
 
 **Wnioski (K1, K2, K3 i porównanie):**
 
@@ -100,36 +90,26 @@ Jak oceniamy poprawność odpowiedzi modelu? Jakie metryki przyjmujemy i dlaczeg
 
 ### Komputer K1
 
-| Model | Temperature | Exact match | Powtarzalne notatki [x/10] |
-|-------|-------------|-------------|---------------------------|
-| model A | 0.0 | | |
-| model A | 0.5 | | |
-| model A | 1.0 | | |
-| model B | 0.0 | | |
-| model B | 0.5 | | |
-| model B | 1.0 | | |
-
+| Temperature | Exact match | Powtarzalne notatki |
+|-------------|-------------|---------------------|
+| 0.0 | | |
+| 0.5 | | |
+| 1.0 | | |
 ### Komputer K2
 
-| Model | Temperature | Exact match | Powtarzalne notatki [x/10] |
-|-------|-------------|-------------|---------------------------|
-| model A | 0.0 | | |
-| model A | 0.5 | | |
-| model A | 1.0 | | |
-| model B | 0.0 | | |
-| model B | 0.5 | | |
-| model B | 1.0 | | |
+| Temperature | Exact match | Powtarzalne notatki |
+|-------------|-------------|---------------------|
+| 0.0 | | |
+| 0.5 | | |
+| 1.0 | | |
 
 ### Komputer K3
 
-| Model | Temperature | Exact match | Powtarzalne notatki [x/10] |
-|-------|-------------|-------------|---------------------------|
-| model A | 0.0 | | |
-| model A | 0.5 | | |
-| model A | 1.0 | | |
-| model B | 0.0 | | |
-| model B | 0.5 | | |
-| model B | 1.0 | | |
+| Temperature | Exact match | Powtarzalne notatki |
+|-------------|-------------|---------------------|
+| 0.0 | | |
+| 0.5 | | |
+| 1.0 | | |
 
 Powtarzalne notatki to notatki z takim samym wynikiem we wszystkich pięciu powtórzeniach dla danej temperatury. Liczbę przepisujemy z terminala; nie jest zapisywana w results.csv. Powtarzalna odpowiedź może być błędna.
 
@@ -139,30 +119,24 @@ Powtarzalne notatki to notatki z takim samym wynikiem we wszystkich pięciu powt
 
 ### Komputer K1
 
-| Model | Wariant | Poprawny JSON [x/10] | Exact match |
-|-------|---------|---------------------|-------------|
-| model A | prompt | | |
-| model A | json-schema | | |
-| model B | prompt | | |
-| model B | json-schema | | |
+| Wariant | Poprawny JSON | Exact match |
+|---------|---------------|-------------|
+| prompt | | |
+| json-schema | | |
 
 ### Komputer K2
 
-| Model | Wariant | Poprawny JSON [x/10] | Exact match |
-|-------|---------|---------------------|-------------|
-| model A | prompt | | |
-| model A | json-schema | | |
-| model B | prompt | | |
-| model B | json-schema | | |
+| Wariant | Poprawny JSON | Exact match |
+|---------|---------------|-------------|
+| prompt | | |
+| json-schema | | |
 
 ### Komputer K3
 
-| Model | Wariant | Poprawny JSON [x/10] | Exact match |
-|-------|---------|---------------------|-------------|
-| model A | prompt | | |
-| model A | json-schema | | |
-| model B | prompt | | |
-| model B | json-schema | | |
+| Wariant | Poprawny JSON | Exact match |
+|---------|---------------|-------------|
+| prompt | | |
+| json-schema | | |
 
 **Wnioski (K1, K2, K3 i porównanie):**
 
