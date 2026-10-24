@@ -8,21 +8,12 @@
 
 | Parametr | K1 | K2 | K3 |
 |----------|----|----|----|
-<<<<<<< HEAD
-| Osoba | | | Oliwia |
-| CPU | | | AMD Ryzen 7 8840HS |
-| GPU | | | AMD Radeon 780M |
-| RAM | | | 16 GB |
-| Model A | | | phi4-mini |
-| Model B | | | llama3.2 |
-=======
-| Osoba | | Maria Deperas | |
-| CPU | | Intel Core i7-1360P | |
-| GPU | | Intel Iris Xe Graphics (zintegrowane) | |
-| RAM | | 15,6 GB | |
-| Model A | | smollm2:1.7b | |
-| Model B | | granite3.3:2b | |
->>>>>>> 0fa5303 (Dodaj wyniki K2 do raportu)
+| Osoba | | Maria | Oliwia |
+| CPU | | Intel Core i7-1360P | AMD Ryzen 7 8840HS |
+| GPU | | Intel Iris Xe Graphics (zintegrowane) | AMD Radeon 780M |
+| RAM | | 15,6 GB | 16 GB |
+| Model A | | smollm2:1.7b | phi4-mini |
+| Model B | | granite3.3:2b | llama3.2 |
 
 Model A i model B oznaczają dwa modele badane na danym komputerze, zgodnie z tabelą powyżej.
 
